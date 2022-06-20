@@ -6,6 +6,13 @@
     margin-bottom: 1rem;
     align-items: center;
 
+    .heading_1 {
+    }
+
+    .heading {
+      cursor: pointer;
+    }
+
     .icon_symbol {
       display: flex;
       margin-left: 0.5rem;
@@ -15,6 +22,7 @@
     .icon_text {
       font-size: 1rem;
       align-self: flex-start;
+      cursor: pointer;
     }
   }
 
@@ -24,21 +32,28 @@
     .icon_text {
       margin-bottom: 1rem;
       display: inline-block;
+      cursor: pointer;
     }
 
     .row_2 {
       margin-right: 0.8rem;
       display: flex;
-      // align-items: center;
 
-      .icon_text {
-        align-self: center;
+      .icon_text_2 {
+        color: gray;
+        margin-bottom: 1rem;
+      }
+
+      .icon_text_2_active {
+        @extend .icon_text_2;
+        color: red;
       }
 
       .row_line {
-        width: 2px;
-        background-color: black;
-        margin-left: 3px;
+        width: 1px;
+        height: 2rem;
+        background-color: lightgrey;
+        margin-left: 0.4rem;
       }
     }
   }

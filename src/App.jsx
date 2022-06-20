@@ -17,11 +17,11 @@ function App() {
     <div>
       <div className={styles.container}>
         <div className={styles.row}>
-          <div className={styles.header}>دسته ها</div>
+          <div className={styles.heading_1}>دسته ها</div>
         </div>
 
         <div className={styles.row}>
-          <div className={styles.header}>&rarr; همه آگهی ها</div>
+          <div className={styles.heading}>&rarr; همه آگهی ها</div>
         </div>
 
         <div className={styles.row}>
@@ -36,12 +36,12 @@ function App() {
 
           <div className={styles.row_2}>
             <div className={styles.row_line}></div>
-            <span className={styles.icon_text}>آپارتمان</span>
+            <span className={styles.icon_text_2}>آپارتمان</span>
           </div>
 
           <div className={styles.row_2}>
             <div className={styles.row_line}></div>
-            <span className={styles.icon_text}>خانه و ویلا</span>
+            <span className={styles.icon_text_2}>خانه و ویلا</span>
           </div>
 
         </div>
