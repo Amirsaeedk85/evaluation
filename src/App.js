@@ -8,53 +8,86 @@ import { ReactComponent as Social } from "./assets/social-group-svgrepo-com.svg"
 import { ReactComponent as Dice } from "./assets/two-dices-svgrepo-com.svg";
 import { ReactComponent as Vehicle } from "./assets/vehicle-car-svgrepo-com.svg";
 import { ReactComponent as Watch } from "./assets/watch-svgrepo-com.svg";
-import "./App.css";
+import styles from "./style.module.scss";
 
 function App() {
+  const width = 18;
+  const height = 18;
   return (
-    <div className="App">
-      <div className="container">
-        <div className="row">
-          <span className="icon-text">املاک</span>
-          <div className="icon">
-            <Home width={20} height={20} />
+    <div>
+      <div className={styles.container}>
+        <div className={styles.row}>
+          <div className={styles.header}>دسته ها</div>
+        </div>
+
+        <div className={styles.row}>
+          <div className={styles.icon_symbol}>
+            <Home width={width} height={height} className="symbmol" />
           </div>
+          <span className={styles.icon_text}>املاک</span>
         </div>
-        <div className="row">
-          <span className="icon-text">وسایل نقلیه</span>
-          <Vehicle width={20} height={20} />
+
+        <div className={styles.row}>
+          <div className={styles.icon_symbol}>
+            <Vehicle width={width} height={height} />
+          </div>
+          <span className={styles.icon_text}>وسایل نقلیه</span>
         </div>
-        <div className="row">
-          <span className="icon-text">کالای دیجیتال</span>
-          <CellPhone width={20} height={20} />
+
+        <div className={styles.row}>
+          <div className={styles.icon_symbol}>
+            <CellPhone width={width} height={height} />
+          </div>
+          <span className={styles.icon_text}>کالای دیجیتال</span>
         </div>
-        <div className="row">
-          <span className="icon-text">خانه و آشپزخانه</span>
-          <Lamp width={20} height={20} />
+
+        <div className={styles.row}>
+          <div className={styles.icon_symbol}>
+            <Lamp width={width} height={height} />
+          </div>
+          <span className={styles.icon_text}>خانه و آشپزخانه</span>
         </div>
-        <div className="row">
-          <span className="icon-text">خدمات</span>
-          <Brush width={20} height={20} />
+
+        <div className={styles.row}>
+          <div className={styles.icon_symbol}>
+            <Brush width={width} height={height} />
+          </div>
+          <span className={styles.icon_text}>خدمات</span>
         </div>
-        <div className="row">
-          <span className="icon-text">وسایل شخصی</span>
-          <Watch width={20} height={20} />
+
+        <div className={styles.row}>
+          <div className={styles.icon_symbol}>
+            <Watch width={width} height={height} />
+          </div>
+          <span className={styles.icon_text}>وسایل شخصی</span>
         </div>
-        <div className="row">
-          <span className="icon-text">سرگرمی و فراغت</span>
-          <Dice width={20} height={20} />
+
+        <div className={styles.row}>
+          <div className={styles.icon_symbol}>
+            <Dice width={width} height={height} />
+          </div>
+          <span className={styles.icon_text}>سرگرمی و فراغت</span>
         </div>
-        <div className="row">
-          <span className="icon-text">اجتماعی</span>
-          <Social width={20} height={20} />
+
+        <div className={styles.row}>
+          <div className={styles.icon_symbol}>
+            <Social width={width} height={height} />
+          </div>
+          <span className={styles.icon_text}>اجتماعی</span>
         </div>
-        <div className="row">
-          <span className="icon-text">تجهیزات صنعتی</span>
-          <Chair width={20} height={20} />
+
+        <div className={styles.row}>
+          <div className={styles.icon_symbol}>
+            <Chair width={width} height={height} />
+          </div>
+          <span className={styles.icon_text}>تجهیزات صنعتی</span>
         </div>
-        <div className="row">
-          <span className="icon-text">استخدام و کاریابی</span>
-          <Bag width={20} height={20} />
+
+        <div className={styles.row}>
+          <div className={styles.icon_symbol}>
+            <Bag width={width} height={height} />
+          </div>
+          <span className={styles.icon_text}>استخدام و کاریابی</span>
         </div>
       </div>
     </div>
