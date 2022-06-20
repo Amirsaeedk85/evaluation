@@ -17,4 +17,29 @@
       align-self: flex-start;
     }
   }
+
+  .row_1 {
+    margin-right: 3rem;
+
+    .icon_text {
+      margin-bottom: 1rem;
+      display: inline-block;
+    }
+
+    .row_2 {
+      margin-right: 0.8rem;
+      display: flex;
+      // align-items: center;
+
+      .icon_text {
+        align-self: center;
+      }
+
+      .row_line {
+        width: 2px;
+        background-color: black;
+        margin-left: 3px;
+      }
+    }
+  }
 }
