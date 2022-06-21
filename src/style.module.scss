@@ -42,11 +42,13 @@
       .icon_text_2 {
         color: gray;
         margin-bottom: 1rem;
+        cursor: pointer;
       }
 
       .icon_text_2_active {
         @extend .icon_text_2;
         color: red;
+        cursor: pointer;
       }
 
       .row_line {
@@ -54,6 +56,12 @@
         height: 2rem;
         background-color: lightgrey;
         margin-left: 0.4rem;
+        cursor: pointer;
+      }
+
+      .row_line_active {
+        @extend .row_line;
+        background-color: red;
       }
     }
   }

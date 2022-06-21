@@ -40,8 +40,8 @@ function App() {
           </div>
 
           <div className={styles.row_2}>
-            <div className={styles.row_line}></div>
-            <span className={styles.icon_text_2}>خانه و ویلا</span>
+            <div className={styles.row_line_active}></div>
+            <span className={styles.icon_text_2_active}>خانه و ویلا</span>
           </div>
 
         </div>
